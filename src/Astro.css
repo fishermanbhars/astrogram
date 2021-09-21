@@ -1,0 +1,102 @@
+/* General Stylings */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Space+Mono:wght@400;700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: "Segoe UI", Arial, Sans-serif;
+  line-height: 1.4;
+  background: #121212;
+}
+
+
+/* astroHeader */
+.header {
+  font-weight: 700px;
+  font-size: 400%;
+}
+
+.subheader {
+  font-weight: 400px;
+  font-size: 100%;
+}
+
+.header, .subheader {
+  color: rgba(212, 52, 91, 1);
+  color: white;
+  font-family: "Orbitron", "Space Mono";
+  text-align: center;
+}
+
+
+/* astroButton */
+
+.like {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* astroContainer */
+
+.container, .inner {
+  diplay: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: transparent;
+}
+
+.inner {
+  background: #161616;
+  border-radius: 5px;
+  border-color: #161616;
+  padding: 20px;
+}
+
+/* astroPosts */
+
+.postheader, .explanation, .date {
+  font-family: "Space Mono";
+  color: #fff;
+  margin: 10px 0px;
+}
+
+.media {
+  display: inline-block;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  width: 100%;
+}
+
+.postheader {
+  color: rgba(212, 52, 91, 0.8);
+  font-size: 30px;
+  margin-top: 50px;
+  border-top: 5px solid #202020;
+  border-radius: 7px;
+  padding-top: 10px;
+}
+
+.date {
+  display: inline;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.explanation {
+  border-bottom: 5px solid #202020;
+  border-radius: 7px;
+  padding-bottom: 10px;
+}
